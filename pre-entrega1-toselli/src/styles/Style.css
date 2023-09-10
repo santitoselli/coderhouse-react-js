@@ -1,0 +1,144 @@
+:root {
+    --fuente: 'Quicksand', sans-serif;
+    --blanco: rgba(255, 255, 240);
+    --verde: #d0e854;
+    --high: #efffa1;
+    --low: #d1bd04;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* Valor de 1rem = 10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    display: block;
+}
+
+.Header-title {
+    background-color: var(--blanco);
+    padding: 0.1rem;
+    max-width: 100%;
+    font-family: var(--fuente);
+    display: flex;
+    justify-content: center;
+}
+
+.h1-title {
+    font-size: 4rem;
+    color: black;
+    margin: auto 0;
+
+}
+
+.app-logo {
+    height: 180px;
+}
+
+.cart-logo {
+    padding: .25rem;
+}
+
+.cart-widget {
+    background-color: var(--blanco);
+    margin: 1rem;
+    width: fit-content;
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border-radius: 50px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cart-widget p {
+    font-family: var(--fuente);
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    background-color: var(--verde);
+}
+
+.btn-nav {
+    background-color: var(--verde);
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-family: var(--fuente);
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--blanco);
+}
+
+.btn-nav:hover {
+    background-color: var(--high);
+    color: var(--low);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-nav:active {
+    color: black;
+    transition: 0s;
+}
+
+.drop-down {
+    max-width: 100%;
+    height: fit-content;
+    background-color: var(--high);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.drop-down a {
+    font-family: var(--fuente);
+    color: var(--low);
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.drop-down a:hover {
+    color: var(--verde);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.drop-title {
+    background-color: var(--high);
+    max-width: 100;
+    height: fit-content;
+    padding: 0.01rem;
+    justify-content: center;
+}
+
+.drop-title h2 {
+    font-family: var(--fuente);
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem auto;
+}
