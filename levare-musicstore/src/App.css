@@ -1,0 +1,45 @@
+:root {
+  --fnt-logo: 'EB Garamond', sans-serif;
+  --fuente: 'Quicksand', sans-serif;
+  --blanco: rgba(255, 255, 240);
+  --verde: #d0e854;
+  --high: #efffa1;
+  --low: #d1bd04;
+  position: relative;
+  min-height: 100vh;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* Valor de 1rem = 10px */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fuente);
+}
+
+a {
+  text-decoration: none;
+  color: olive;
+}
+
+a:active {
+  color: olive;
+}
+
+h1 {
+  padding: 2rem;
+  font-size: 2rem;
+  color: gray;
+  font-weight: 700;
+  text-transform: capitalize;
+}

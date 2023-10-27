@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--verde);
+    padding: 0;
+}
+
+.nav-bar .btn-nav {
+    margin-right: 2rem;
+    position: relative;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    max-height: 10rem;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-bar-title {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #ffffff 30%, var(--verde) 100%);
+}
+
+.nav-bar-title h1 {
+    font-family: var(--fnt-logo);
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.app-logo {
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.btn-nav {
+    text-decoration: none;
+    border: none;
+    font-family: var(--fuente);
+    font-size: 2rem;
+    color: var(--blanco);
+    position: relative;
+}
+
+.btn-nav:hover {
+    color: var(--low);
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+.btn-nav a{
+    text-decoration: none;
+    color: var(--blanco);
+    border: none;
+}
+
+.btn-nav a:hover {
+    color: var(--low);
+    cursor: pointer;
+    transition: ease 0.2s;
+    border-radius: .5rem;
+}
+
+.drop-down {
+    display: none;
+    position: absolute;
+    border-radius: .5rem;
+    top: 100%;
+    left: 0;
+    width: 100;
+    background-color: var(--verde);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .2);
+    transition: ease .3s;
+}
+
+.btn-nav:hover .drop-down {
+    display: block;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.drop-down a {
+    border: none;
+    padding: 1rem 2rem;
+    color: var(--blanco);
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+}

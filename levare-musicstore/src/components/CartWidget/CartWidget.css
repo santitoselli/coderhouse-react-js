@@ -1,0 +1,30 @@
+.cart-logo {
+    margin: 0 auto;
+    padding: .5rem;
+    height: 4rem
+}
+
+.cart-widget {
+    background-color: var(--blanco);
+    margin: auto 1rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cart {
+    height: fit-content;
+}
+
+.cart-widget p {
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color:var(--low);
+    color: var(--blanco);
+    border-radius: 50% ;
+
+}

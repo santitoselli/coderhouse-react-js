@@ -1,0 +1,16 @@
+.acerca {
+    background-color: var(--high);
+    position: relative;
+    padding: 8rem 50rem;
+    justify-content: center;
+    text-align:justify;
+}
+
+.acerca h2 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.acerca p {
+    font-size: 1.6rem;
+}

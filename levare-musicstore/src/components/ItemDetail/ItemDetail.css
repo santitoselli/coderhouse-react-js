@@ -1,0 +1,84 @@
+.item-card {
+    margin: 3rem 3rem;
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5), 0 5px 15px -5px rgba(0, 0, 0, 0.6);
+    background-color: var(--blanco);
+    display: flex;
+}
+
+.item-img-container {
+    margin: 0 auto;
+}
+
+.item-img {
+    object-fit: contain;
+    height: 35rem;
+}
+
+.detail-container {
+    display: flex;
+    margin: 1rem;
+}
+
+.item-body {
+    display: block;
+    padding: 0 2rem;
+    text-align: justify;
+}
+
+.item-body h2 {
+    font-size: 2rem;
+    color: var(--low);
+    font-weight: bolder;
+}
+
+.item-body p {
+    font-size: 1.2rem;
+}
+
+.item-body span {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: green;
+}
+
+.detail-counter {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn-cart {
+    padding: .8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color:var(--verde);
+    color: var(--blanco);
+    font-family: var(--fuente);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.35)
+}
+
+.btn-cart:hover {
+    padding: auto 0;
+    background-color: var(--high);
+    color: var(--low);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.btn-cart:active {
+    color: black;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
+}

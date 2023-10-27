@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--verde);
+}
+
+.footer p {
+    font-family: var(--fuente);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}

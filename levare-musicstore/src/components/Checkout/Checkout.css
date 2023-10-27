@@ -1,0 +1,124 @@
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.form-container h2 {
+    font-size: 1.6rem;
+    margin:1 0;
+    padding: 0;
+    color:gray;
+    text-align: center;
+}
+
+.form-container h5 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding: 0 3rem;
+    color:brown;
+    font-size: 1rem;
+}
+
+.form-container .input-container {
+    position: relative;
+}
+
+.form-container .input-container input {
+    background-color: var(--blanco);
+    width: 90%;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: gray;
+    padding-left: 1rem;
+    margin: 2rem 3rem;
+    border: solid .2rem var(--verde);
+    border-radius: .5rem;
+}
+
+.form-container .input-container label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3rem 4rem;
+    font-size: 1.6rem;
+    color: var(--low);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.form-container .input-container input:focus~label,
+.form-container .input-container input:valid~label {
+    top: -3rem;
+    left: 0;
+    color: var(--low);
+    font-size: 12px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.form-container form button {
+    width: 60%;
+    padding: 1rem 0;
+    border: none;
+    border-radius: .5rem;
+    background-color:var(--verde);
+    color: var(--blanco);
+    font-family: var(--fuente);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.35)
+}
+
+.form-container button:hover {
+    padding: auto 0;
+    background-color: var(--high);
+    color: var(--low);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.form-container button:active {
+    color: black;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
+}
+
+.success {
+    margin: 5rem auto;
+    padding: 5rem;
+    text-align: center;
+    background-color: var(--blanco);
+    width: 35%;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.35)
+}
+
+.success h2 {
+    font-size: 2.5rem;
+    color: forestgreen;
+}
+
+.success h4 {
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    color: grey;
+    font-weight: lighter;
+}
+
+.success h4 span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
